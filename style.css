@@ -1,0 +1,55 @@
+body {
+    color: #fff;
+    background-color: black;
+    margin: 0;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+#background-image {
+    background-image: url('ben.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 40px); /* Siyah arka plan hariç tüm ekran yüksekliği */
+    display: flex;
+    align-items: flex-start; /* Resmi yukarıya hizalıyor */
+    justify-content: center; /* Resmi yatayda ortaya hizalıyor */
+    padding-top: 20px; /* Siyah arka planın üstündeki boşluk */
+    margin-top: -20px; /* Siyah arka planın üstündeki boşluk */
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 60px; /* Siyah arka planda eşit boşluk sağlıyor */
+}
+
+.jumbotron h1 {
+    color: #ffc107; /* Sarı renk */
+    margin-bottom: 20; /* Yazının altında boşluk bırakma */
+}
+
+.social-icons {
+    background-color: #343a40;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Siyah arka planda eşit boşluk sağlıyor */
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 20px; /* İkonları daha büyük yapmak için font boyutunu artır */
+    margin: 0 10px; /* Boşlukları artır */
+}
+
+
+
+
+
+
+
+
