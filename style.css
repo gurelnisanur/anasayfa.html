@@ -10,7 +10,7 @@ body {
 }
 
 #background-image {
-    background-image: url('ben.jpg');
+    background-image: url('html.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 40px); /* Siyah arka plan hariç tüm ekran yüksekliği */
